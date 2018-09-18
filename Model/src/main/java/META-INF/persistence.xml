@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+  <persistence-unit name="RRHH_WEB_PU">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/rrhh</jta-data-source>
+    <class>utn.frsf.ofa.cusojava.rrhh.web.modelo.Empleado</class>
+    <class>utn.frsf.ofa.cusojava.rrhh.web.modelo.Proyecto</class>
+    <class>utn.frsf.ofa.cusojava.rrhh.web.modelo.Efectivo</class>
+    <class>utn.frsf.ofa.cusojava.rrhh.web.modelo.Contratado</class>
+    <class>utn.frsf.ofa.cusojava.rrhh.web.modelo.Cliente</class>
+    <properties>
+      <property name="eclipselink.target-server" value="WebLogic_10"/>
+      <property name="javax.persistence.jtaDataSource" value="jdbc/rrhh"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

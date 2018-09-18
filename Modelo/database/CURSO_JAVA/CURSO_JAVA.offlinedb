@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProviderSettings xmlns="http://xmlns.oracle.com/ide/hash">
+   <hash n="dataTypeSettings">
+      <value n="databaseType" v="MySQL"/>
+      <value n="databaseVersion" v="40"/>
+   </hash>
+   <value n="id" v="72df08d5-efcc-4bc8-bd41-51ff9053f5d0"/>
+   <value n="name" v="CURSO_JAVA"/>
+</ProviderSettings>
